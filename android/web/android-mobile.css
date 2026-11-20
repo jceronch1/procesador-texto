@@ -1,0 +1,46 @@
+/* Hoja exclusiva de la aplicación Android. */
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+#workspace { touch-action: pan-x pan-y; }
+#sizer { overflow: clip; overflow-clip-margin: 3px; }
+#mobile-ribbon-toggle { display: none; }
+
+@media (max-width: 900px), (max-height: 540px) {
+  #titlebar { gap: 3px; padding: 1px 6px; }
+  #doc-title { flex: 1; min-width: 0; width: auto; }
+  #titlebar > .grow { display: none; }
+  #save-state { display: none; }
+  #mode-btn { padding: 0 6px; }
+  #mobile-ribbon-toggle {
+    display: inline-flex; justify-content: center; align-items: center;
+    flex: none; padding: 0 8px; height: 36px; color: var(--text);
+    background: var(--panel); border: 1px solid var(--border); border-radius: 6px;
+  }
+  #mobile-ribbon-toggle[aria-expanded="true"] {
+    background: var(--accent-weak); color: var(--accent-strong);
+  }
+  body.mobile-ribbon-folded #ribbon { display: none; }
+  #menubar { flex-wrap: nowrap; overflow-x: auto; padding-left: 4px; }
+  #menubar > * { flex: none; }
+  #menubar, #ribbon, #statusbar { overscroll-behavior-x: contain; scrollbar-width: none; }
+  #menubar .menu-btn { min-height: 38px; }
+  #ribbon { margin: 0; border-radius: 0; }
+  #statusbar { flex: none; height: 36px; overflow-x: auto; padding-inline: 3px; }
+  #statusbar > * { flex: none; }
+  #statusbar .grow { flex: 1 0 2px; }
+  #statusbar .st-btn, #zoom-lbl { min-height: 34px; }
+  #zoom .tb-btn { min-width: 35px; min-height: 34px; }
+  #statusbar .st-views, #zoom-range { display: none; }
+  #zoom { order: -1; }
+  .menu-key { display: none; }
+  .menu-item, .menu-compact .menu-item { min-height: 38px; }
+  .dlg { max-height: calc(100dvh - 12px); max-width: 100%; }
+  .dlg-back { padding: 6px; }
+  .dlg-body { min-height: 0; }
+  #outline:not([hidden]) {
+    display: block; position: absolute; left: 0; top: 0; bottom: 0;
+    z-index: 19; width: min(260px, 82vw); box-shadow: var(--shadow);
+  }
+}
+@media (max-width: 370px) {
+  #titlebar .app-ico { display: none; }
+}

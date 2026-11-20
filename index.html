@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Procesador de texto</title>
+<meta name="description" content="Procesador de texto en el navegador: páginas reales, estilos, listas, tablas, imágenes, notas, comentarios, control de cambios y archivos de Word.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='2' y='1' width='12' height='14' rx='2' fill='%231f5fbf'/%3E%3Cpath d='M4.6 5h6.8M4.6 7.6h6.8M4.6 10.2h4.4' stroke='%23fff' stroke-width='1.2'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div id="app"></div>
+<noscript>Este procesador de texto necesita JavaScript para funcionar.</noscript>
+
+<!-- motor -->
+<script src="js/core/base.js"></script>
+<script src="js/model/doc.js"></script>
+<script src="js/model/ops.js"></script>
+<script src="js/model/compare.js"></script>
+<!-- vista -->
+<script src="js/ui/dom.js"></script>
+<script src="js/view/doccss.js"></script>
+<script src="js/view/render.js"></script>
+<script src="js/view/layout.js"></script>
+<!-- archivos -->
+<script src="js/io/zip.js"></script>
+<script src="js/io/xml.js"></script>
+<script src="js/io/convert.js"></script>
+<script src="js/io/docx.js"></script>
+<!-- interfaz -->
+<script src="js/ui/editor.js"></script>
+<script src="js/ui/app.js"></script>
+<script src="js/ui/chrome.js"></script>
+<script src="js/ui/ribbon.js"></script>
+<script src="js/ui/dialogs.js"></script>
+<script src="js/ui/tools.js"></script>
+<script src="js/ui/review.js"></script>
+<script src="js/ui/assist.js"></script>
+<script src="js/ui/extras.js"></script>
+<script src="js/io/files.js"></script>
+</body>
+</html>
