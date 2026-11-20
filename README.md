@@ -3,6 +3,20 @@
 Procesador de texto en español para el navegador. Funciona sin conexión y sin instalar nada: HTML, CSS y
 JavaScript puro, con las mismas técnicas que la hoja de cálculo de la carpeta `hoja de calculo`.
 
+## Pantallazos de Android
+
+| Menú Archivo (exportar) | Cinta Inicio | Menú IA | Menú Insertar |
+| --- | --- | --- | --- |
+| <img src="android/pantallazos/p1.jpeg" alt="Menú Archivo abierto con las opciones para exportar el documento a Word, PDF, HTML, Markdown, RTF, texto o JSON" width="180"> | <img src="android/pantallazos/p2.jpeg" alt="Documento de bienvenida con la cinta Inicio desplegada: portapapeles y fuente" width="180"> | <img src="android/pantallazos/p3.jpeg" alt="Menú IA con las acciones del asistente: mejorar redacción, corregir, resumir, traducir..." width="180"> | <img src="android/pantallazos/p4.jpeg" alt="Menú Insertar con imagen, tabla, vínculo, comentario, nota al pie, campos, fichas inteligentes y firma" width="180"> |
+
+## Pantallazos de la versión web
+
+![Acta de reunión con la cinta Inicio abierta: fuente, párrafo, estilos y edición](pantallazos/w1.png)
+
+![Asistente de IA en el panel lateral con las acciones de mejora de redacción](pantallazos/w2.png)
+
+![Menú Herramientas abierto con una imagen insertada en el documento](pantallazos/w3.png)
+
 ## Cómo abrirlo
 
 Doble clic en `index.html` (Chrome, Edge o Firefox recientes). El documento se guarda solo en el navegador
