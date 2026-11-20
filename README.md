@@ -3,6 +3,13 @@
 Procesador de texto en español para el navegador. Funciona sin conexión y sin instalar nada: HTML, CSS y
 JavaScript puro, con las mismas técnicas que la hoja de cálculo de la carpeta `hoja de calculo`.
 
+## Android
+
+Descarga la [APK 1.0.1](https://raw.githubusercontent.com/jceronch1/procesador-texto/main/dist/Procesador-de-texto.apk),
+ábrela desde **Archivos** en el teléfono e instálala. Si Android solicita autorización para esa fuente, actívala para
+la aplicación desde la que estás abriendo el archivo. La APK está firmada para instalación directa y admite Android
+8.0 o posterior. Mantén actualizado Android System WebView para leer documentos DOCX comprimidos.
+
 ## Pantallazos de Android
 
 | Menú Archivo (exportar) | Cinta Inicio | Menú IA | Menú Insertar |
